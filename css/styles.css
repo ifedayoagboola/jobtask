@@ -1,0 +1,178 @@
+body{
+    background: #e5e5e5;
+}
+.top-bar{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    
+}
+.top-bar span{
+    margin: 0 5%;
+}
+.header{
+    margin: 20px 20px;
+}
+.ruler{
+    margin-top: 0;
+}
+.header-left{
+    display: inline-flex;
+    width: 60%;
+}
+.header-left input{
+    margin-left: 40%;
+    width: 300px;
+    border-radius: 5px;
+}
+.menu-bar{
+    width: 40%;
+    height: 57px;
+    float: right;
+}
+.menu-bar ul{
+    display: inline-flex;
+}
+.menu-bar ul li{
+    list-style-type: none;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-list ul{
+    display: inline-flex;
+    padding: 0;
+}
+.menu-list ul li{
+    list-style-type: none;
+    padding: 15px 45px 15px 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+}
+.menu-highlight{
+    color: orange;
+}
+.parent {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.child{
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    top: 420px;
+    left: 200px;
+    border-radius: 5px;
+}
+.child-content{
+    padding: 40px;
+}
+.child-content p{
+    margin: 40px 0;
+}
+.child-content p em{
+    color: orange;
+    font-weight: bold;
+}
+.child-content button{
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: none;
+    /* margin-top: 60px; */
+    padding: 10px;
+}
+#products{
+    padding: 0 100px;
+}
+.product-title{
+    padding: 20px 0;
+}
+.product-header a{
+    color: orange;
+    font-size: 15px;
+}
+.product-container img{
+width: 100%;
+border-radius: 4px;
+}
+.product-container button{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    background-color: #fff;
+    color: orange;
+    box-shadow: none;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    width: 50%;
+}
+.popular-products{
+    margin-top: 50px;
+    padding: 0 50px 30px;
+    box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.1);
+    background: #fff;
+
+}
+
+.popular-products img{
+    width: 100%;
+    border-radius: 4px;
+    }
+.price{
+    padding: 30px 0;
+}
+
+.price h5{
+        font-size: 13px;
+       
+    }
+.price h4{
+    font-size: 16px; 
+    font-weight: bold;
+}
+.semi-footer img{
+width: 100%;
+}
+.mail{
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: left;
+}
+.mail p{
+margin: 40px 0;
+}
+.mail input{
+    margin: 5px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: #f2f2f2;
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+.mail button{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    width: 60%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.mail .far{
+   float: left;
+   margin-right: 20px;
+}
+
+
