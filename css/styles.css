@@ -1,17 +1,18 @@
 body{
     background: #e5e5e5;
+    font-family: 'Poppins';
 }
 .top-bar{
     background-color: #000;
     color: #fff;
-    padding: 10px;
+    padding: 10px 7%;
     
 }
 .top-bar span{
-    margin: 0 5%;
+    margin: 0 1%;
 }
 .header{
-    margin: 20px 20px;
+    margin: 20px 7%;
 }
 .ruler{
     margin-top: 0;
@@ -29,15 +30,19 @@ body{
     width: 40%;
     height: 57px;
     float: right;
+    text-align: center;
+    
 }
 .menu-bar ul{
     display: inline-flex;
+    vertical-align: center;
 }
 .menu-bar ul li{
     list-style-type: none;
-    padding: 15px 25px;
+    padding: 10px;
     text-align: center;
     cursor: pointer;
+    
 }
 
 .menu-list ul{
@@ -46,11 +51,11 @@ body{
 }
 .menu-list ul li{
     list-style-type: none;
-    padding: 15px 45px 15px 0;
+  padding-right: 37px;
     text-align: center;
     cursor: pointer;
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 12px;
+    font-style: 'SemiBold';
 }
 .menu-highlight{
     color: orange;
@@ -70,8 +75,8 @@ body{
     background-color: #fff;
     color: #000;
     position: absolute;
-    top: 420px;
-    left: 200px;
+    top: 380px;
+    left: 100px;
     border-radius: 5px;
 }
 .child-content{
@@ -89,7 +94,6 @@ body{
     color: #fff;
     border-radius: 4px;
     box-shadow: none;
-    /* margin-top: 60px; */
     padding: 10px;
 }
 #products{
@@ -125,6 +129,19 @@ border-radius: 4px;
     background: #fff;
 
 }
+.one{
+    padding-bottom: 20px;
+}
+.tag{
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    box-shadow: none;
+    border: none;
+    padding: 8px;
+}
 
 .popular-products img{
     width: 100%;
@@ -142,8 +159,15 @@ border-radius: 4px;
     font-size: 16px; 
     font-weight: bold;
 }
+.semi-footer{
+    margin-top: 50px;
+}
 .semi-footer img{
 width: 100%;
+margin-left: -12px;
+}
+.mail-body{
+    margin-right: -12px;
 }
 .mail{
     background-color: #f2f2f2;
@@ -173,6 +197,35 @@ margin: 40px 0;
 .mail .far{
    float: left;
    margin-right: 20px;
+}
+.footer-section{
+    background-color: #333333;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    text-align: left;
+    padding: 100px;
+ 
+}
+.footer-section h4{
+    padding-bottom: 20px;
+}
+.footer-section ul{
+    padding: 0;
+}
+.footer-section ul li{
+    list-style-type: none;
+  
+}
+.selected{
+    color: orange;
+}
+.download{
+    float: right;
+    display: flex;
+}
+.icon{
+    padding: 10px;
 }
 
 
